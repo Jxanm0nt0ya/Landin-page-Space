@@ -1,0 +1,23 @@
+.footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    background-color: #2A2F4F;
+    margin-top: 4rem;
+}
+
+.footer-logo {
+    margin-left: 20px;
+}
+
+.footer-parrafo p.autor {
+    color: white;
+}
+
+.footer-redes {
+    display: flex;
+    margin-right: 20px;
+}

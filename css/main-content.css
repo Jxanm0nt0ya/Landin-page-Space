@@ -1,0 +1,32 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-description {
+    display: flex;
+    margin-top: 50px;
+}
+
+.section-title {
+    
+    margin-right: 15px;
+}
+
+.section-title h1.title {
+    font-size:  64px;
+    border-right: 3px solid black ;
+    width: 475px;
+   
+}
+
+.section-title h1.title span {
+  color:  white;
+}
+
+.section-paragraph {
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
