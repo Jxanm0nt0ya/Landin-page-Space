@@ -2,25 +2,27 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .section-description {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 
 .section-title {
-    
+
     margin-right: 15px;
 }
 
 .section-title h1.title {
-    font-size:  64px;
-    border-right: 3px solid black ;
+    font-size: 64px;
+
     width: 475px;
-   
+
 }
 
 .section-title h1.title span {
-  color:  white;
+    color: white;
 }
 
 .section-paragraph {
@@ -28,5 +30,41 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
+
+@media only screen and (max-width: 767px) {
+
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-description {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .section-title {
+
+        margin-right: auto;
+    }
+
+    .section-title h1.title {
+        font-size: 24px;
+        width: 200px;
+        justify-content: center;
+
+    }
+
+    .section-title h1.title span {
+        color: white;
+    }
+
+    .section-paragraph {
+        height: 275px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
