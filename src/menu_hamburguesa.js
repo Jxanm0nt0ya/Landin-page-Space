@@ -1,0 +1,27 @@
+const togglebuttom = document.getElementById("header-menu")
+const navWrapper = document.getElementById("nav-ul")
+
+//jugar conm esto
+
+/* 
+  cada ves que se haga click en el botón 
+  agrega y quita las clases necesarias 
+  para que el menú se muestre.
+*/
+
+toggleButton.addEventListener("click", () => {
+    toggleButton.classList.toggle("close");
+    navWrapper.classList.toggle("show");
+});
+
+/* 
+  Cuándo se haga click fuera del contenedor de enlaces 
+  el menú debe esconderse.
+*/
+
+navWrapper.addEventListener("click", e => {
+    if (e.target.id === "nav") {
+        navWrapper.classList.remove("show");
+        toggleButton.classList.remove("close");
+    }
+});
