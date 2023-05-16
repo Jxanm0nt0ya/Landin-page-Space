@@ -1,27 +1,23 @@
-const togglebuttom = document.getElementById("header-menu")
-const navWrapper = document.getElementById("nav-ul")
 
-//jugar conm esto
 
-/* 
-  cada ves que se haga click en el botón 
-  agrega y quita las clases necesarias 
-  para que el menú se muestre.
-*/
+const iconoMenu = document.querySelector("#icono-menu"),
+  menu = document.querySelector("#menu");
 
-toggleButton.addEventListener("click", () => {
-    toggleButton.classList.toggle("close");
-    navWrapper.classList.toggle("show");
-});
+  iconoMenu.addEventListener("click" , (e) => {
 
-/* 
-  Cuándo se haga click fuera del contenedor de enlaces 
-  el menú debe esconderse.
-*/
+  //Alterno estilos para el menu y body//
+  menu.classList.toggle("active")
+  document.body.classList.toggle("opacity");
 
-navWrapper.addEventListener("click", e => {
-    if (e.target.id === "nav") {
-        navWrapper.classList.remove("show");
-        toggleButton.classList.remove("close");
-    }
+  //Alterno   su tributo "src"  para el icono del  menu //
+  const rutaActual = e.target.getAttribute("src");
+
+  if(rutaActual == "img/menu hamburguesa.png") {
+    e.target.setAttribute("src", "img/menu hamburguesa.png");
+  }else{
+    e.target.setAttribute("src", "img/menu hamburguesa.png");
+  }
+
+
+
 });
