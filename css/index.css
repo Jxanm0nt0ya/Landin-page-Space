@@ -4,6 +4,8 @@
 @import "./main-content.css";
 @import "./planets.css";
 @import "./footer.css";
+@import "./hamburguesa.css";
+
 
 :root {
     --black: #202020;
