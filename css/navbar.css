@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: center;
-    background-color: #2A2F4F;
+    background: linear-gradient(to bottom, #47238a, #2A2F4F);
 
 }
 
@@ -55,10 +55,10 @@
     /*estilos para el contennedor del menu*/
 
     .cont-menu {
-        background-color: #2A2F4F;
+        background: linear-gradient(to bottom, #47238a, #2A2F4F);
         box-shadow: 2px 0px 5px 2px #383f6d;
         width: 255px;
-        height: 100vh;
+        height: 50vh;
         position: absolute;
         top: 0;
         left: 0;
@@ -83,7 +83,7 @@
 
     }
 
-    .cont-menu ul li {
+    .cont-menu ul li>a {
         color: white;
         display: block;
         font-size: 25px;
@@ -133,7 +133,7 @@
         display: none;
     }
 
-    .header-nav ul li.nav-ul-li>a {
+    .nav-ul li>a {
         font-family: var(--font);
         text-decoration: none;
         color: rgb(245, 243, 243);

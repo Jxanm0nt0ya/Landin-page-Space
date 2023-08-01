@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px 0;
-    background-color: #2A2F4F;
+    background: linear-gradient(to bottom, #47238a, #2A2F4F);
     margin-top: 4rem;
 }
 
@@ -22,8 +22,4 @@
     margin-right: 20px;
 }
 
-@media only screen and (max-width: 767px){
-
-    
-
-}
+@media only screen and (max-width: 767px) {}
